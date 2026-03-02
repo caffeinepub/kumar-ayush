@@ -16,7 +16,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Bricolage Grotesque", "sans-serif"],
+        display: ["Fraunces", "serif"],
         body: ["Outfit", "sans-serif"],
       },
       colors: {
@@ -88,12 +88,14 @@ export default {
         "4xl": "3rem",
       },
       boxShadow: {
-        xs: "0 1px 2px 0 rgba(0,0,0,0.05)",
-        card: "0 4px 24px -4px oklch(0.18 0.05 270 / 0.12), 0 1px 4px oklch(0.18 0.05 270 / 0.08)",
-        fun: "4px 4px 0px oklch(0.18 0.05 270 / 0.6)",
-        "fun-yellow": "4px 4px 0px oklch(0.68 0.18 88)",
-        "fun-coral": "4px 4px 0px oklch(0.58 0.22 28)",
-        "fun-mint": "4px 4px 0px oklch(0.55 0.16 162)",
+        xs: "0 1px 2px 0 rgba(0,0,0,0.04)",
+        card: "0 2px 8px -2px oklch(0.13 0.04 270 / 0.08), 0 8px 24px -4px oklch(0.13 0.04 270 / 0.06)",
+        "card-hover": "0 4px 16px -2px oklch(0.13 0.04 270 / 0.12), 0 16px 40px -8px oklch(0.13 0.04 270 / 0.10)",
+        fun: "3px 3px 0px oklch(0.13 0.04 270 / 0.5)",
+        "fun-yellow": "3px 3px 0px oklch(0.62 0.14 78)",
+        "fun-coral": "3px 3px 0px oklch(0.48 0.16 32)",
+        "fun-mint": "3px 3px 0px oklch(0.50 0.12 168)",
+        "fun-glow-yellow": "0 0 20px oklch(0.78 0.14 78 / 0.35), 0 4px 12px oklch(0.78 0.14 78 / 0.2)",
       },
       keyframes: {
         "accordion-down": {
